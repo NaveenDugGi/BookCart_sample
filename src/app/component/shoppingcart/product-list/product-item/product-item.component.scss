@@ -1,0 +1,24 @@
+.card {
+   margin-bottom: 10px;
+  
+}
+
+.fa-heart  {
+   
+   color: rgb(122, 29, 204);
+   cursor: pointer;
+   
+}
+.fa-heart:hover {
+   color: red;
+   cursor: pointer;
+   
+}
+.card-img-top {
+    margin-top: -20px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    max-height: 250px;
+    max-width: 200px;
+    cursor: pointer;
+}

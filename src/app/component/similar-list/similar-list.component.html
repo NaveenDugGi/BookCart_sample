@@ -1,0 +1,13 @@
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-pink bg-pink">
+        <a class="navbar-brand" href="#">Similar Books</a>
+    </nav>
+    <div class="row">
+        <div class="cardHolder" *ngFor=" let product of [1, 2, 3, 4, 5] ">
+            <app-product-item [productItem]="product"></app-product-item>
+        </div>
+    </div>
+
+
+</div>
+
